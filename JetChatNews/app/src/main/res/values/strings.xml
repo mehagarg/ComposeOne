@@ -44,5 +44,7 @@
     <string name="textfield_desc">Text input</string>
     <string name="not_available">Functionality currently not available</string>
     <string name="not_available_subtitle">Grab a beverage and check back later!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

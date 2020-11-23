@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@string/conversations">
+
+    <fragment
+        android:id="@+id/conversation_fragment"
+        android:name="com.meha.garg.compose.conversation.ConversationFragment"
+        android:label="@string/conversations" />
+
+    <fragment
+        android:id="@+id/profile_frag"
+        android:name="com.meha.garg.compose.profile.ProfileFragment"
+        android:label="@string/profile">
+        <argument
+            android:name="userId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
